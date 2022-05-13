@@ -32,7 +32,7 @@ jobs:
     - name: Check formatting with black
       run: |
         python -m pip install black==22.3
-        black --check
+        black --check .
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
